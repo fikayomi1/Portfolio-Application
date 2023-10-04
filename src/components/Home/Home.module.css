@@ -1,0 +1,48 @@
+.Home {
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.Text {
+    width: 50%;
+    padding: 130px 120px;
+    /* border: 2px solid black; */
+}
+
+.Name {
+    font-size: 35px;
+    padding: 10px 0;
+    font-weight: light;
+}
+
+p {
+    line-height: 37px;
+    font-size: 15px;
+}
+
+.button {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 12px 25px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    box-shadow: 1px 2px 1px 1px rgb(195, 193, 193);
+    margin: 10px 12px;
+
+}
+
+.Picture {
+    /* border: 2px solid black; */
+    width: 50%;
+    display: flex;
+    padding: 70px 150px;
+    
+}
+
+.Image {
+    border-radius: 187.5px;
+    width: 375px;
+    height: 375px;
+    border: 1px solid rgb(0, 0, 0);
+}

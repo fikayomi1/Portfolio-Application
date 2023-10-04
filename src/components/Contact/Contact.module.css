@@ -1,0 +1,54 @@
+.Contact{
+    padding: 50px 50px;
+    border-bottom: 2px solid blue;
+
+}
+
+
+.Header{
+    text-align: center;
+    font-size: 29px;
+    font-weight: light;
+
+}
+.subHeader{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input{
+    color: black;
+    background-color: white;
+    padding: 10px 5px;
+    margin: 5px;
+    /* outline: none;    */
+    border: rgb(222, 8, 8);
+}
+input:focus{
+    color: black;
+    background-color: white;
+    /* outline: none; */
+    border: black;
+}
+
+.button{
+    padding: 10px 25px;
+    width: 380px;
+    outline: none;
+    border: 1px solid black;
+    color: black;
+    background-color: #fff;
+    border-radius: 15px;
+
+}
+.button:hover{
+    background-color: black;
+    color: white;
+    border: #fff;
+    /* bg */
+}
+form{
+    text-align: center;
+    padding: 10px 0;
+}

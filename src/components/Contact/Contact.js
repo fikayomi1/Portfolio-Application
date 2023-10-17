@@ -1,4 +1,5 @@
 import React from 'react';
+import emailjs from 'emailjs-com';
 import { useState } from 'react';
 
 
@@ -23,26 +24,32 @@ export default function Contact() {
 
   function handleSubmit(e) {
     e.preventDefault();
+    const form = document.getElementById('contactForm')
     console.log(contactDetails)
-    fetch('http://localhost:5000/send-email', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(contactDetails),
-      
-    })
-      .then(response => response.json())
-      .then(data => {
-        alert(data);
+    emailjs.sendForm('service_pgft3n2', 'template_scb8zic', form, "whCQfsjf0SIbhnd9G")
+  
+  .then((result) => {
+    console.log(result.text);
+  }, (error) => {
+    console.error(error.text);
+  });
+
+
+
+      setContactDetails({
+        
+          "name": "",
+          "email": "",
+          "subject": "",
+          "message": "",
+        
       })
-      .catch(error => console.error('Error:', error));
   }
 
   return (
     <div className="max-w-lg mx-auto bg-white p-8 border border-gray-300 shadow-full rounded-lg mt-20 mb-10">
       <h2 className="text-2xl font-bold mb-4 text-center bg-white">Contact Me</h2>
-      <form className="flex flex-col bg-white">
+      <form className="flex flex-col bg-white" id = "contactForm">
         <div className="flex mb-4 bg-white">
           <div className="w-1/2 mr-2 bg-white">
             {/* <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">Name</label> */}

@@ -1,22 +1,27 @@
 import React from 'react';
 
+//Tailwind is mobile first approach
+
 const About = () => {
     return (
-        <section className=" py-2 px-2 rounded-xl shadow-lg bg-white mt-8 mr-6 ml-6 sm:m-2">
-            <div className="container bg-white mx-auto text-center sm:p-2 ">
-                <h2 className="text-3xl font-bold bg-white mb-3">About Me</h2>
-                <div className="p-2 bg-white">
-                    <p className=" bg-white text-lg text-gray-800 mb-4">
-                        Hi, I'm [Your Name], a passionate Frontend Developer based in [Location]. I specialize in crafting beautiful and functional user interfaces using React, Bootstrap, and Tailwind CSS.
+        
+
+            <div className="shadow-2xl rounded-3xl bg-white text-center mx-6 px-10 py-8 font-sans md:mx-20 md:px-40">
+                <h2 className="text-3xl font-bold bg-white ">About Me</h2>
+                <div className="bg-white mt-2">
+                    <p className="bg-white text-justify p-2 text-lg md: text-base">
+                        Hi, I'm Odedunmoye Olaoluwa, a passionate Frontend Developer based in Nigeria. I specialize in crafting beautiful and functional user interfaces using React, Bootstrap, and Tailwind CSS.
                     </p>
-                    <p className="bg-white text-lg text-gray-800">
+                    <p className="bg-white text-justify p-2 text-lg md: text-base">
                         I believe in the power of clean code and intuitive design to create exceptional web experiences. With a strong eye for detail and a love for problem-solving, I'm committed to delivering projects that exceed client expectations.
-                                                 
+
                     </p>
-                    <button className = "bg-black text-white font-semibold rounded-full px-4 py-2 mt-3 border border-white hover:bg-white hover:text-black hover:border hover:border-black">Download CV</button>
+                    <button className="mt-4 bg-black text-white font-semibold rounded-full px-4 py-3 border border-black transition-all hover:bg-white hover:text-black hover:border-black"><a href = "https://ola-resume.tiiny.site/" className ="bg-transparent hover:bg-white" target =" _blank" rel = "noopener noreferrer">Check CV</a></button>
                 </div>
+                <div id="Skills"></div>
             </div>
-        </section>
+            
+        
     );
 };
 

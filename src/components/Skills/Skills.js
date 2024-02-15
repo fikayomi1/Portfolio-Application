@@ -34,6 +34,7 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
+            <div id ="Project"></div>
         </section>
     );
 };

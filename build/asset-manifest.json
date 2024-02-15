@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.7ed09afd.css",
-    "main.js": "/static/js/main.ce6ecf57.js",
-    "static/media/Ola3.jpg": "/static/media/Ola3.3a78b22ecff1c3b7450c.jpg",
+    "main.css": "/static/css/main.9779b979.css",
+    "main.js": "/static/js/main.a6b9aa20.js",
     "static/media/Ola.png": "/static/media/Ola.936ebdb24da03370f40c.png",
-    "static/media/Ola2.jpg": "/static/media/Ola2.4e3540c523009dabf3e0.jpg",
+    "static/media/E-commerce App Image.png": "/static/media/E-commerce App Image.942b623a625d9f4139e8.png",
+    "static/media/BlogR App Image.png": "/static/media/BlogR App Image.081d9c95d22a18138eab.png",
+    "static/media/cover.png": "/static/media/cover.bb7998d124d9d9349802.png",
+    "static/media/Weather App Image.png": "/static/media/Weather App Image.f16d718927686b69fe8c.png",
+    "static/media/To Do App Image.png": "/static/media/To Do App Image.3f8f7005e42d1dfda030.png",
     "index.html": "/index.html",
-    "main.7ed09afd.css.map": "/static/css/main.7ed09afd.css.map",
-    "main.ce6ecf57.js.map": "/static/js/main.ce6ecf57.js.map"
+    "main.9779b979.css.map": "/static/css/main.9779b979.css.map",
+    "main.a6b9aa20.js.map": "/static/js/main.a6b9aa20.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ed09afd.css",
-    "static/js/main.ce6ecf57.js"
+    "static/css/main.9779b979.css",
+    "static/js/main.a6b9aa20.js"
   ]
 }

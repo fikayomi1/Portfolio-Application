@@ -30,6 +30,7 @@ export default function Contact() {
   
   .then((result) => {
     console.log(result.text);
+    alert("Message Sent")
   }, (error) => {
     console.error(error.text);
   });
